@@ -1,0 +1,39 @@
+.card {
+    position: relative;
+    height: 70vh;
+    max-width: 800px;
+    border-radius: 0.5em;
+    margin: 12px 12px 0 12px;
+}
+.card img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+    z-index: 0;
+}
+.splash {
+    position: absolute;
+    text-align: right;
+    height: auto;
+    padding: 5px 15px;
+    color: var(--black);
+    color: var(--back-color);
+    left: 25vw;
+    font-size: 1.15rem;
+    bottom: 7%; right: 5%;
+    line-height: 1;
+}
+.splash h1 {
+    line-height: 0.5;
+}
+.splash a {
+    color: var(--back-color);
+    background-color: var(--main-color);
+    font-size: large;
+    padding: 4px 8px;
+    text-decoration: none;
+    border-radius: 20em;
+    line-height: 1.5;
+}
